@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# LawConnect – AI-Powered Legal Assistance Platform
+## Overview
+LawConnect is an AI-powered legal assistance web application designed to simplify legal help for users. It provides an interactive AI chatbot for instant legal queries and a lawyer directory where users can find, contact, and hire verified lawyers. Lawyers can create detailed profiles to showcase their expertise and services, making it a two-way platform.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Key Features
 
-## Available Scripts
+AI Chatbot: Provides instant answers to law-related questions using AI, helping users understand legal concepts before consulting a lawyer.
 
-In the project directory, you can run:
+Lawyer Directory: A searchable list of registered lawyers with details such as qualifications, practice areas, consultation fees, and contact information.
 
-### `npm start`
+User Portal: Allows users to register, chat with AI, and hire lawyers directly through the platform.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Lawyer Portal: Enables lawyers to create detailed profiles to advertise their expertise and services.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Secure Authentication: Separate login and registration for users and lawyers with personalized dashboards.
 
-### `npm test`
+Responsive UI: Clean and intuitive interface for seamless navigation across devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Pages & Functionalities
 
-### `npm run build`
+## 1. Landing Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Provides an introduction to LawConnect and its features.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Quick navigation options for user and lawyer login/register.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1920" height="1080" alt="Landing Page" src="https://github.com/user-attachments/assets/db3e2ad1-705a-4367-acb9-09a8711d2fc1" />
 
-### `npm run eject`
+## 2. UserLogin Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Enables users to log in securely.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Redirects to the User Dashboard upon successful login.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="1920" height="1080" alt="User login page" src="https://github.com/user-attachments/assets/fc17cb22-3cb3-4a86-a8bf-3258a1af9986" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 3. UserRegister Page
 
-## Learn More
+Allows users to create an account with email and password.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Stores user details securely for future access.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1920" height="1080" alt="user register page" src="https://github.com/user-attachments/assets/2b5d3526-7d10-44b5-bfc6-72b59302cf5d" />
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 4. LawyerLogin Page
 
-### Analyzing the Bundle Size
+Provides a secure login for lawyers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Takes them to their Lawyer Profile page after login.
 
-### Making a Progressive Web App
+<img width="1920" height="1080" alt="Lawyer login" src="https://github.com/user-attachments/assets/0dddf817-9fcc-4985-b2f9-3ab3573896ba" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 5. LawyerRegister Page
 
-### Advanced Configuration
+Lawyers can register by entering details like name, phone, occupation, qualifications, fees, and location.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Profile data is stored in the database for display to users.
 
-### Deployment
+<img width="1920" height="1080" alt="Lawyer register" src="https://github.com/user-attachments/assets/ea622dcb-d370-4769-bebc-779bb1664605" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 6. UserDashboard Page 
 
-### `npm run build` fails to minify
+Displays the main features:
+➡️ AI Lawyer Chatbot
+➡️ Contact Lawyer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acts as the hub for user actions.
+
+<img width="1920" height="1080" alt="user dashboard" src="https://github.com/user-attachments/assets/2015d44f-6200-41f3-a1a6-e7ec6f6ba73e" />
+
+## 7. LawyerProfile Page
+
+Displays the lawyer’s details (name, email, phone, fees, description).
+
+Lawyers can view their own profile.
+
+<img width="1920" height="1080" alt="Lawyer profile" src="https://github.com/user-attachments/assets/b95e764a-1a42-4e67-a901-5211c8521235" />
+
+## 8. AiLawyyer Page
+
+AI chatbot answers user questions about Indian laws.
+
+Provides responses in short, clear bullet points.
+
+<img width="1920" height="1080" alt="AI lawyer" src="https://github.com/user-attachments/assets/e45774be-011e-4161-9e65-8fe1f41c0ee9" />
+
+## 9. ContactLawyer Page
+
+Shows a list of all registered lawyers with filters (by name, occupation, city).
+
+Displays lawyer profiles with details like phone, fees, and description.
+
+<img width="1920" height="1080" alt="Screenshot (53)" src="https://github.com/user-attachments/assets/c71a3a67-d747-402c-869a-4c2d14428c17" />
+
+## Summary
+LawConnect is designed to simplify legal access by merging AI-powered guidance with a lawyer-hiring platform. Users can quickly get basic legal advice and connect with professionals, while lawyers can promote their services and find new clients efficiently.
+
+
