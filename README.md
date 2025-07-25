@@ -24,7 +24,7 @@ Provides an introduction to LawConnect and its features.
 
 Quick navigation options for user and lawyer login/register.
 
-<img width="1920" height="1080" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/b518c80a-3303-4d43-8f23-4e2bc50e01b7" />
+<img width="1920" height="1080" alt="Landing Page" src="https://github.com/user-attachments/assets/db3e2ad1-705a-4367-acb9-09a8711d2fc1" />
 
 ## 2. UserLogin Page
 
@@ -32,7 +32,7 @@ Enables users to log in securely.
 
 Redirects to the User Dashboard upon successful login.
 
-<img width="1920" height="1080" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/75c3eb00-7a75-4bba-8255-079249cef88a" />
+<img width="1920" height="1080" alt="User login page" src="https://github.com/user-attachments/assets/fc17cb22-3cb3-4a86-a8bf-3258a1af9986" />
 
 ## 3. UserRegister Page
 
@@ -40,14 +40,16 @@ Allows users to create an account with email and password.
 
 Stores user details securely for future access.
 
+<img width="1920" height="1080" alt="user register page" src="https://github.com/user-attachments/assets/2b5d3526-7d10-44b5-bfc6-72b59302cf5d" />
+
+
 ## 4. LawyerLogin Page
 
 Provides a secure login for lawyers.
 
 Takes them to their Lawyer Profile page after login.
 
-<img width="1920" height="1080" alt="Screenshot (57)" src="https://github.com/user-attachments/assets/598c5850-8c32-4568-833a-b87b3d4af176" />
-
+<img width="1920" height="1080" alt="Lawyer login" src="https://github.com/user-attachments/assets/0dddf817-9fcc-4985-b2f9-3ab3573896ba" />
 
 ## 5. LawyerRegister Page
 
@@ -55,7 +57,7 @@ Lawyers can register by entering details like name, phone, occupation, qualifica
 
 Profile data is stored in the database for display to users.
 
-<img width="1920" height="1080" alt="Screenshot (56)" src="https://github.com/user-attachments/assets/fa052ec2-e2b1-4936-82c9-783d83cb0374" />
+<img width="1920" height="1080" alt="Lawyer register" src="https://github.com/user-attachments/assets/ea622dcb-d370-4769-bebc-779bb1664605" />
 
 ## 6. UserDashboard Page 
 
@@ -65,7 +67,7 @@ Displays the main features:
 
 Acts as the hub for user actions.
 
-<img width="1920" height="1080" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/acad2fa0-d2ed-444b-ace2-91b3c7379684" />
+<img width="1920" height="1080" alt="user dashboard" src="https://github.com/user-attachments/assets/2015d44f-6200-41f3-a1a6-e7ec6f6ba73e" />
 
 ## 7. LawyerProfile Page
 
@@ -73,6 +75,7 @@ Displays the lawyer’s details (name, email, phone, fees, description).
 
 Lawyers can view their own profile.
 
+<img width="1920" height="1080" alt="Lawyer profile" src="https://github.com/user-attachments/assets/b95e764a-1a42-4e67-a901-5211c8521235" />
 
 ## 8. AiLawyyer Page
 
@@ -80,7 +83,7 @@ AI chatbot answers user questions about Indian laws.
 
 Provides responses in short, clear bullet points.
 
-<img width="1920" height="1080" alt="Screenshot (52)" src="https://github.com/user-attachments/assets/baa3f6de-51e9-40c5-8687-b29f2b532dae" />
+<img width="1920" height="1080" alt="AI lawyer" src="https://github.com/user-attachments/assets/e45774be-011e-4161-9e65-8fe1f41c0ee9" />
 
 ## 9. ContactLawyer Page
 
